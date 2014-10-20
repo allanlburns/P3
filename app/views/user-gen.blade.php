@@ -3,11 +3,11 @@
 Random User Generator
 @stop
 @section('content')
-This page will generate random users for you to use!
+This page will generate random users for you to use! <br><br>
 
 <?php
 
-echo random_uagent()
+
 
 ?>
 
