@@ -21,6 +21,7 @@ Route::get('/lorem', function()
 {
 	//return "Lorem Ipsum";
 	return View::make('lorem');
+	
 });
 
 Route::post('/lorempost', function()
