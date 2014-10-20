@@ -14,6 +14,7 @@
 Route::get('/', function()
 {
 	//return "Hello world";
+	return View::make('index');
 });
 
 Route::get('/lorem', function()
