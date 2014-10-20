@@ -13,10 +13,15 @@
 
 Route::get('/', function()
 {
-	return "Hello world";
+	//return "Hello world";
 });
 
 Route::get('/lorem', function()
+{
+	return "Lorem Ipsum";
+});
+
+Route::post('/lorempost', function()
 {
 	return "Lorem Ipsum";
 });
