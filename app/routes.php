@@ -20,3 +20,8 @@ Route::get('/lorem', function()
 {
 	return "Lorem Ipsum";
 });
+
+Route::get('/user-gen', function()
+{
+	return "Random User Generator";
+});
