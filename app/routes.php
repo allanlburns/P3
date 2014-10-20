@@ -21,7 +21,7 @@ Route::get('/lorem', function()
 {
 	//return "Lorem Ipsum";
 	return View::make('lorem');
-	
+
 });
 
 Route::post('/lorempost', function()
@@ -31,5 +31,6 @@ Route::post('/lorempost', function()
 
 Route::get('/user-gen', function()
 {
-	return "Random User Generator";
+	//return "Random User Generator";
+	return View::make('user-gen');
 });
