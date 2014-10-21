@@ -1,0 +1,23 @@
+body
+{
+	text-align: left;
+	margin-left: 12cm;
+}
+p
+{
+	font-family: Courier;
+	font-size: 20;
+	color: black;
+}
+h1
+{
+	font-family: Impact;
+	font-size: 52;
+	color: green;
+}
+h2
+{
+	font-family: Times New Roman;
+	font-size: 32;
+	color: red;
+}

@@ -24,7 +24,7 @@ Route::get('/lorem', function()
 
 });
 
-Route::post('/lorempost', function()
+Route::post('/lorem', function()
 {
 	return "Lorem Ipsum";
 });
