@@ -41,4 +41,4 @@ Route::post('/user-gen', function()
 	return View::make('user-gen');
 });
 
-
+>?
