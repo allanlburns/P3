@@ -32,6 +32,7 @@ Route::post('/lorem', function()
 Route::get('/user-gen', function()
 {
 	//return "Random User Generator";
+	
 	return View::make('user-gen');
 });
 
