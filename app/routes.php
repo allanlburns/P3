@@ -19,7 +19,6 @@ Route::get('/', function()
 
 Route::get('/lorem', function()
 {
-	//return "Lorem Ipsum";
 	return View::make('lorem');
 
 });
@@ -42,12 +41,4 @@ Route::post('/user-gen', function()
 	return View::make('user-gen');
 });
 
-Route::get('/testing', function() {
 
-	$cats= "asdfsadfasdfasdf";
-
-
-	return View::make('index')
-	->with('dogs',$cats);
-
-});

@@ -9,7 +9,7 @@ Developer's best friend is blahblahblah...
 
 
 <br><br>
-{{{$dogs}}}
+
 
 @stop
 
