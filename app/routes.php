@@ -35,3 +35,9 @@ Route::get('/user-gen', function()
 	//return "Random User Generator";
 	return View::make('user-gen');
 });
+
+Route::post('/user-gen', function()
+{
+	//return "Random User Generator";
+	return View::make('user-gen');
+});
