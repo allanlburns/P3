@@ -12,9 +12,9 @@ This page will generate random users for you to use! <br><br>
 	$faker = Faker\Factory::create();
 
 	//this for loop creates multiple instance, but not the way I want it--yet.
-	/*for ($i=0; $i < 10; $i++) {
+	for ($i=0; $i < 10; $i++) {
   	echo $faker->name, "\n";
-}*/
+}
 
 ?>
 

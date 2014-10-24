@@ -26,7 +26,8 @@ Route::get('/lorem', function()
 
 Route::post('/lorem', function()
 {
-	return "Lorem Ipsum";
+	return View::make('lorem');
+
 });
 
 Route::get('/user-gen', function()
