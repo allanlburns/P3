@@ -41,3 +41,13 @@ Route::post('/user-gen', function()
 	//return "Random User Generator";
 	return View::make('user-gen');
 });
+
+Route::get('/testing', function() {
+
+	$cats= "asdfsadfasdfasdf";
+
+
+	return View::make('index')
+	->with('dogs',$cats);
+
+});

@@ -7,5 +7,9 @@ Developer's best friend is blahblahblah...
 
 ...Random User Generator
 
+
+<br><br>
+{{{$dogs}}}
+
 @stop
 
