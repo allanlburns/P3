@@ -31,15 +31,12 @@ Route::post('/lorem', function()
 
 Route::get('/user-gen', function()
 {
-	require_once 'C:\xampp\htdocs\P3\vendor\fzaninotto\Faker\src\autoload.php';
-	
+		
 	return View::make('user-gen');
 });
 
 Route::post('/user-gen', function()
 {
-	//require_once 'C:\xampp\htdocs\P3\vendor\fzaninotto\Faker\src\autoload.php';
-
 	return View::make('user-gen');
 });
 
