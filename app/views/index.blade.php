@@ -8,9 +8,9 @@ which creates fake data for website development and testing purposes.
 <p>
 Follow the links to each tool below:
 
-<p>...Lorem Ipsum Generator
+<p>Click <a href="/lorem">here</a> for lorem ipsum generator
 
-<p>...Random User Generator
+<p>Click <a href="/user-gen">here</a> for random user generator
 
 
 <br><br>
