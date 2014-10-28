@@ -10,7 +10,7 @@ This page will generate random users for you to use! <br><br>
 	<input type="submit" value="Submit">
 </form> 
 
-<?php require_once 'C:\xampp\htdocs\P3\vendor\fzaninotto\Faker\src\autoload.php'; ?>
+<?php require_once '\var\www\html\P3\vendor\fzaninotto\Faker\src\autoload.php'; ?>
 
 <p><?php
 
