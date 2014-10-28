@@ -15,6 +15,8 @@ This page will generate random users for you to use! <br><br>
 <p><?php
 
 	//require_once 'C:\xampp\htdocs\P3\vendor\fzaninotto\Faker\src\autoload.php';
+
+	//need to rewatch video from Lecture 6--I remember some method of finding path.
 	
 	$faker = Faker\Factory::create();
 
