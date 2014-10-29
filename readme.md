@@ -13,7 +13,5 @@
 
 *(https://github.com/fzaninotto/Faker) I built the random user generator via fzaninotto's Faker package from Packagist and installed it via composer using instructions found on the README.md on Github.
 
-*(http://www.example website.com) Example comments.
-
 Test by Susan 2
 
