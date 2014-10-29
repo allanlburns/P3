@@ -10,13 +10,15 @@ This page will generate random users for you to use! <br><br>
 	<input type="submit" value="Submit">
 </form> 
 
-<?php //require_once '\var\www\html\P3\vendor\fzaninotto\Faker\src\autoload.php'; ?>
-
 <p><?php
+
+	//on localhost: 
 
 	//require_once 'C:\xampp\htdocs\P3\vendor\fzaninotto\Faker\src\autoload.php';
 
-	//need to rewatch video from Lecture 6--I remember some method of finding path.
+	//on live server: 
+
+	require_once '\var\www\html\P3\vendor\fzaninotto\Faker\src\autoload.php';
 	
 	$faker = Faker\Factory::create();
 
